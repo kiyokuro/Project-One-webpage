@@ -10,15 +10,12 @@
 
 }
 body {
-	background-color:#cccccc;	/*ページ全体の背景色*/
+
+  background-color: #ffffff;
 	text-align:center;		/*IE6以下でセンタリングするための対策*/
 }
 div#pagebody {
-	margin:0 auto;	/*内容全体をセンタリング*/
-	text-align:left;	/*テキストの配置を左揃えにする*/
-	background-image:url("images/bg_pagebody.gif");	/*内容全体の背景*/
-	background-repeat:repeat-y;		/*背景画像を縦方向に繰り返す*/
-	background-color:#ffffff;		/*内容全体の背景色*/
+
 }
 
 /*============================================
@@ -26,13 +23,11 @@ div#pagebody {
 ============================================*/
 div#header {
 	height:77px;	/*背景画像のサイズに合わせてボックスの高さを指定*/
-	background-image:url("images/bg_header.jpg");	/*ヘッダ部分の背景画像*/
 	background-repeat:no-repeat;		/*背景画像を繰り返さない*/
 	background-color:#ffffff;		/*ヘッダ部分の背景色*/
 }
 h1 {
 	padding:20px 0px 0px 30px;		/*見出し内容の位置調整*/
-	font-family:Arial, Helvetica, sans-serif;	/*フォントの種類*/
 }
 h1 a {text-decoration:none;} 			/*リンクの下線を無くす*/
 
@@ -40,13 +35,19 @@ h1 a {text-decoration:none;} 			/*リンクの下線を無くす*/
 メインメニュー
 ============================================*/
 ul#menu {
-	height:42px; background-color:#ffffff; font-weight:bold;
+	height:42px;
+  background-color:#ffffff;
+  font-weight:bold;
+  position:relative;
+	float:left;
+  left:50%;
 }
 li#menu01,li#menu02,li#menu03,li#menu04,li#menu05 {
 	float:left;			/*リスト項目を横に並べる*/
-	display:inline;			/*リスト項目をインライン表示にする*/
 	list-style-type:none;		/*リストマーカー無しにする*/
 	background-repeat:no-repeat; 	/*背景画像を繰り返さない*/
+  position:relative;
+  left:-50%;
 }
 
 /*ボタン01～05にはそれぞれ異なる背景画像を指定する*/
@@ -77,6 +78,29 @@ ul#menu a {
 	font-family:Arial, Helvetica, sans-serif;	/*フォントの種類*/
 }
 
+/*============================================
+ホーム
+============================================*/
+div#content1{
+  height: 600px;
+  background-image:url("images/index_background_home.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	margin-top: 44px;
+	color: #ffffff;
+	font-size: 1.6rem;
+  text-align: center;
+}
+div#content2{
+  height: 800px;
+  background-image:url("images/index_background_home_2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 /*============================================
 サブメニュー（左カラム）
 ============================================*/
