@@ -87,34 +87,14 @@ ul#menu a {
 ============================================*/
 div#content1{
   height: 600px;
-  background-image:url("images/index_background_home.jpg");
+  background-image:url("images/messege_background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 	position: relative;
 }
-div#messege1{
-	height: 200px;
-	width: 400px;
-	color: #ffffff;
-	font-size: 1.6rem;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	margin: auto;
-}
-div#content2{
-  height: 800px;
-  /*background-image:url("images/index_background_home_2.jpg");*/
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-div#content2title{
+div#content1title{
 	height: 200px;
 	width: 200px;
 	color: #ffffff;
@@ -126,80 +106,19 @@ div#content2title{
 	left: 0px;
 	margin: auto;
 }
-div#content2subtitle{
-	height: 200px;
-	width: 200px;
-	color: #ffffff;
-	font-size: 1.6rem;
-	position: absolute;
-	top: 1300px;
-	right: 700px;
-	bottom: 0;
-	left: 0px;
-	margin: auto;
-}
-div#messege2{
+div#messege1{
 	height: 200px;
 	width: 400px;
 	color: #ffffff;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	position: absolute;
-	top: 1400px;
+	top: 0;
 	right: 700px;
 	bottom: 0;
-	left: 0px;
+	left: 0;
 	margin: auto;
 }
 
-/*============================================
-サブメニュー（左カラム）
-============================================*/
-div#submenu {
-	width:160px;			/*幅の指定*/
-	margin:10px 10px 10px 25px;	/*位置調整（IE6のバグに注意）*/
-	display:inline;			/*IE6のマージン算出のバグ対策*/
-	float:left;			/*サブメニューのカラムを左寄せにする*/
-}
-
-/*サブメニューのヘッダ部分（余白調整・背景画像・背景色・文字サイズなど）*/
-div#submenu_header {
-	height:26px; padding:4px 0px 0px 0px;
-	background-image:url("images/bg_submenu_header.gif");
-	background-repeat:no-repeat; background-position:top;
-	background-color:#cccccc;
-	font-size:90%; font-weight:bold; text-align:center;
-}
-
-/*サブメニューのボディ部分（余白調整・背景画像・背景色）*/
-ul#submenu_body {
-	padding-bottom:6px;
-	background-image:url("images/bg_submenu_footer.gif");
-	background-repeat:no-repeat; background-position:bottom;
-	background-color:#cccccc;
-}
-ul#submenu_body li {
-	font-size:90%;			/*文字サイズを90%にする*/
-	list-style-type:none;		/*リストマーカー無しにする*/
-	display:inline;			/*リスト項目をインライン表示にする*/
-}
-ul#submenu_body li a {
-	display:block;			/*リンクをブロック表示にする*/
-	margin:0px 4px 0px 4px;		/*サブメニュー項目のマージン*/
-	padding:2px 0px 2px 20px;	/*サブメニュー項目のパディング*/
-	background-color:#eeeeee;	/*サブメニュー項目の背景色*/
-	text-decoration:none;		/*リンクの下線を無くす*/
-}
-ul#submenu_body li a:hover {
-	background-color:#ffffff;	/*リンクにマウスが乗ったら色を変える*/
-}
-
-/*============================================
-コンテンツ（中央と右の2カラム全体）
-============================================*/
-div#content {
-	width:560px; margin:10px 20px 10px 0px;	/*幅の指定と位置調整*/
-	float:right;				/*2カラム全体を右寄せにする*/
-}
 
 /*============================================
 フッタ
@@ -207,7 +126,9 @@ div#content {
 div#footer {
 	height:42px; text-align:center;
 	clear:both;					/*回り込みを解除する*/
-	background-color:#ffffff;			/*フッタ部分の背景色*/
+	background-image:url("images/bg_footer.jpg");	/*フッタ部分の背景画像*/
+	background-repeat:no-repeat;			/*背景画像を繰り返さない*/
+	background-color:#cccccc;			/*フッタ部分の背景色*/
 }
 address {
 	font-style:normal;			 /*フォントスタイルを標準にする*/

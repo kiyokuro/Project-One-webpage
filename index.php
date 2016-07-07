@@ -58,14 +58,15 @@
 <!-- 例: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 <div id="pagebody">
   <!-- ヘッダ -->
-	<div id="header"><h1><a href="index.html"><img src="res/images/title.jpg" alt="Project One!"></a></h1></div>
+	<div id="header"><h1><a href="index.php"><img src="res/images/title.jpg" alt="Project One!"></a></h1></div>
 	<!-- メインメニュー -->
 		<ul id="menu">
-			<li id="menu01"><a href="xxx.html">Home</a></li>
-			<li id="menu02"><a href="xxx.html">About</a></li>
-			<li id="menu03"><a href="xxx.html">Products</a></li>
-			<li id="menu04"><a href="xxx.html">Work</a></li>
-			<li id="menu05"><a href="xxx.html">Contact</a></li>
+			<li id="menu01"><a href="xxx.html">ホーム</a></li>
+			<li id="menu02"><a href="xxx.html">製品概要</a></li>
+			<li id="menu03"><a href="xxx.html">ログイン</a></li>
+			<li id="menu04"><a href="messege.php">メッセージ</a></li>
+			<li id="menu05"><a href="xxx.html">活動</a></li>
+			<li id="menu06"><a href="xxx.html">お問い合わせ</a></li>
 		</ul>
 </div>
 
@@ -77,12 +78,19 @@
 		新しいカタチへ
 	</div>
 </div>
+
+<div id="content2title">
+	製品情報
+</div>
+<div id="content2subtitle">
+	フィールドサーバ親機・子機
+</div>
 <div id="content2">
 
 </div>
-<div id="content3">
 
+<div id="footer">
+＊画像は開発中のものです。
 </div>
-
 </body>
 </html>
