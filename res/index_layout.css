@@ -38,16 +38,16 @@ ul#menu {
 	height:42px;
   background-color:#ffffff;
   font-weight:bold;
-  position:relative;
-	float:left;
-  left:50%;
+	display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
 }
 li#menu01,li#menu02,li#menu03,li#menu04,li#menu05 {
-	float:left;			/*リスト項目を横に並べる*/
 	list-style-type:none;		/*リストマーカー無しにする*/
 	background-repeat:no-repeat; 	/*背景画像を繰り返さない*/
-  position:relative;
-  left:-50%;
+	display: table-cell;
+  vertical-align: middle;
 }
 
 /*ボタン01～05にはそれぞれ異なる背景画像を指定する*/
@@ -88,12 +88,29 @@ div#content1{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-	margin-top: 44px;
+	position: relative;
+}
+div#messege1{
+	height: 200px;
+	width: 200px;
 	color: #ffffff;
 	font-size: 1.6rem;
-  text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
 }
 div#content2{
+  height: 800px;
+  background-image:url("images/index_background_home_3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+div#content3{
   height: 800px;
   background-image:url("images/index_background_home_2.jpg");
   background-position: center center;
@@ -101,6 +118,7 @@ div#content2{
   background-attachment: fixed;
   background-size: cover;
 }
+
 /*============================================
 サブメニュー（左カラム）
 ============================================*/

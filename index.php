@@ -59,25 +59,28 @@
 <div id="pagebody">
   <!-- ヘッダ -->
 	<div id="header"><h1><a href="index.html"><img src="res/images/title.jpg" alt="Project One!"></a></h1></div>
-
 	<!-- メインメニュー -->
-	<ul id="menu">
-		<li id="menu01"><a href="xxx.html">Home</a></li>
-		<li id="menu02"><a href="xxx.html">About</a></li>
-		<li id="menu03"><a href="xxx.html">Products</a></li>
-		<li id="menu04"><a href="xxx.html">Work</a></li>
-		<li id="menu05"><a href="xxx.html">Contact</a></li>
-	</ul>
+		<ul id="menu">
+			<li id="menu01"><a href="xxx.html">Home</a></li>
+			<li id="menu02"><a href="xxx.html">About</a></li>
+			<li id="menu03"><a href="xxx.html">Products</a></li>
+			<li id="menu04"><a href="xxx.html">Work</a></li>
+			<li id="menu05"><a href="xxx.html">Contact</a></li>
+		</ul>
 </div>
 
 <div id="content1">
-	<br><br><br><br><br><br>
-	農業へ新しい角度からの<br>
-	「支援」<br>
-	固定概念を捨て<br>
-	新しいカタチへ
+	<div id="messege1">
+		農業へ新しい角度からの<br>
+		「支援」<br>
+		固定概念を捨て<br>
+		新しいカタチへ
+	</div>
 </div>
 <div id="content2">
+
+</div>
+<div id="content3">
 
 </div>
 
