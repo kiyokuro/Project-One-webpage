@@ -107,21 +107,18 @@ div#messege1{
 	margin: auto;
 }
 div#content2{
-  height: 800px;
+  height: 2000px;
   /*background-image:url("images/index_background_home_2.jpg");*/
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+	background-color: rgba(211,230,230,0.2);
 }
 div#content2title{
 	height: 200px;
-	width: 200px;
-	color: #ffffff;
+	width: 300px;
+	color: #000000;
 	font-size: 1.6rem;
 	position: absolute;
-	top: 1250px;
-	right: 700px;
+	top: 1100px;
+	right: 0px;
 	bottom: 0;
 	left: 0px;
 	margin: auto;
@@ -129,7 +126,7 @@ div#content2title{
 div#content2subtitle{
 	height: 200px;
 	width: 200px;
-	color: #ffffff;
+	color: #000000;
 	font-size: 1.6rem;
 	position: absolute;
 	top: 1300px;
@@ -138,14 +135,28 @@ div#content2subtitle{
 	left: 0px;
 	margin: auto;
 }
-div#messege2{
-	height: 200px;
-	width: 400px;
+div#product1{
+	height: 600px;
+	width: 1000px;
+	background-color: rgba(0,0,0,1);
 	color: #ffffff;
 	font-size: 1.2rem;
 	position: absolute;
-	top: 1400px;
-	right: 700px;
+	top: 1700px;
+	right: 0px;
+	bottom: 0;
+	left: 0px;
+	margin: auto;
+}
+div#product2{
+	height: 600px;
+	width: 1000px;
+	background-color: rgba(0,0,0,1);
+	color: #ffffff;
+	font-size: 1.2rem;
+	position: absolute;
+	top: 3100px;
+	right: 0px;
 	bottom: 0;
 	left: 0px;
 	margin: auto;

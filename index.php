@@ -86,7 +86,10 @@
 	フィールドサーバ親機・子機
 </div>
 <div id="content2">
-
+	<div id="product1">
+	</div>
+	<div id="product2">
+	</div>
 </div>
 
 <div id="footer">
