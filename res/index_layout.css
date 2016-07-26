@@ -138,11 +138,10 @@ div#content2subtitle{
 div#product1{
 	height: 600px;
 	width: 1000px;
-	background-color: rgba(0,0,0,1);
 	color: #ffffff;
 	font-size: 1.2rem;
 	position: absolute;
-	top: 1700px;
+	top: 1600px;
 	right: 0px;
 	bottom: 0;
 	left: 0px;
@@ -151,15 +150,34 @@ div#product1{
 div#product2{
 	height: 600px;
 	width: 1000px;
-	background-color: rgba(0,0,0,1);
 	color: #ffffff;
 	font-size: 1.2rem;
 	position: absolute;
-	top: 3100px;
+	top: 3000px;
 	right: 0px;
 	bottom: 0;
 	left: 0px;
 	margin: auto;
+}
+div#productExplanationTitle1{
+	color: #000000;
+	font-size: 1.6rem;
+	position: absolute;
+	top: 900px;
+	right: 0px;
+	bottom: 0;
+	left: 600px;
+}
+div#productExplanationMessege1{
+	width: 350px;
+	color: #000000;
+	font-size: 1rem;
+	position: absolute;
+	top: 1000px;
+	right: 0px;
+	bottom: 0;
+	left: 750px;
+	text-align : left ;
 }
 
 /*============================================

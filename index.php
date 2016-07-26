@@ -87,8 +87,18 @@
 </div>
 <div id="content2">
 	<div id="product1">
+		<img src="res/images/product_field_server.jpg">
+	</div>
+	<div id="productExplanationTitle1">
+		フィールドサーバー
+	</div>
+	<div id="productExplanationMessege1">
+		低下価格ながら扱いやすく十分な機能をもたせました。<br>
+		コンパクトな本体ながら、稲作に必要な「気温」、「湿度」、「土壌温度」、「土壌水分度」、「水位」を取得します。そしてカメラによって水田の様子を確認できます。<br>
+		ソーラパネル付きのバッテリで、電源設備がなくてもすぐに使い始められます。<br>
 	</div>
 	<div id="product2">
+		<img src="res/images/product_webpage.jpg">
 	</div>
 </div>
 
